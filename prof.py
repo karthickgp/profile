@@ -229,7 +229,7 @@ if selected=='Projects':
    # st.caption("⚒️  Supporting Recruitment drives to hire right set of candidates for the organization.")
 
 if selected=='Products':
-   st.markdown('**Product Name:** Smart Insights [link](https://tancetpreparation.blogspot.com/)')
+   st.markdown('Product Name: Smart Insights')
    #st.markdown()
    #st.markdown('Client: Global Lifesciences Company')
    #st.markdown('Domain: Business Intelligence/Analytics')
@@ -243,7 +243,7 @@ if selected=='Products':
    -   Performed the role of Product Owner/Product Consultant handling engagements worth 200K USD for multiple CPG companies operating across multiple categories and multiple geographies.
    """)
    st.divider()
-   st.markdown('**Product Name:** Contract Analyser [link](https://tancetpreparation.blogspot.com/)')
+   st.markdown('Product Name: Contract Analyser')
    #st.markdown()
    #st.markdown('Client: Global Lifesciences Company')
    st.markdown('Domain: Business Intelligence/Analytics')
@@ -315,7 +315,7 @@ if selected=='Education':
         st.image('PL-300.jpg')
 # -----------------  Downloads  ----------------- #
 if selected=='Resume':
-   file1=r"C:\Users\DINGOO KARTHICK\Desktop\T\Rsume\L1\Dingoo Karthick_G.pdf"
+   file1=r"Dingoo Karthick_G.pdf"
    #st.write("View Resume")
    displayPDF(file1)
 #    with open(file1, "rb") as file:
