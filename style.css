@@ -1,0 +1,41 @@
+
+
+div {
+  --background-color: #1A4A93;
+--background-image: url("data:image/png;base64,%s");
+font-family: sans serif;
+background-image: url(‘img_file.jpg’);
+}
+
+h1 {
+  color: black;
+  text-align: center;
+font-family: verdana;
+}
+
+p {
+  font-family: verdana;
+  font-size: 40px;
+background-image: url(‘img_file.jpg’);
+}
+
+body { 
+    background-color: #0000ff;
+    }
+    
+/* Same as above, but using the CSS 'background' property instead */
+body { 
+    background: blue;
+    }
+    
+ 
+
+/* Setting a border color on the 'article' element */
+article { 
+    border-color: blue;
+    }
+
+/* Same as previous, but using the 'border' property instead (also sets border width and style) */    
+article { 
+    border: 1px solid blue;
+    }
