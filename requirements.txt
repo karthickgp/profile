@@ -3,3 +3,4 @@ wordcloud
 streamlit_option_menu
 streamlit_lottie
 matplotlib
+streamlit_timeline
