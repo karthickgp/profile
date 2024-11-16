@@ -11,7 +11,7 @@ st.set_page_config(page_title="Profile", page_icon=":human:", layout="wide")
 from streamlit_option_menu import option_menu
 # 1. as sidebar menu
 with st.sidebar:
-    selected = option_menu("Menu",["About Me", "Experience","Projects","Products","Domain","Gen AI","Education"]
+    selected = option_menu("Menu",["About Me", "Experience","Projects","Products","Domain","Gen AI","Education"],
                                    #"Resume","Contact Me"'download',"envelope"],
         icons=['person','compass','laptop','map','circle','cpu','book'], menu_icon="cast", default_index=0)
 #tab1, tab2, tab3 = st.tabs(["Timeline", "Skills","Contact Me"])
