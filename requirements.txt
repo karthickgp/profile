@@ -1,0 +1,5 @@
+streamlit
+wordcloud
+streamlit_option_menu
+streamlit_lottie
+matplotlib
