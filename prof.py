@@ -6,7 +6,7 @@ import base64
 import streamlit.components.v1 as components
 from wordcloud import WordCloud
 import matplotlib.pyplot as plt
-st.set_option('deprecation.showPyplotGlobalUse', False)
+#st.set_option('deprecation.showPyplotGlobalUse', False)
 st.set_page_config(page_title="Profile", page_icon=":human:", layout="wide")
 from streamlit_option_menu import option_menu
 # 1. as sidebar menu
