@@ -313,7 +313,7 @@ if selected=='Education':
         st.image('AZ900.JPG')
    with c3:
         st.write("  PowerBI  ")
-        st.image('PL-300.JPG'')
+        st.image('PL-300.JPG')
 # -----------------  Downloads  ----------------- #
 if selected=='Resume':
    file1=r"Dingoo Karthick_G.pdf"
