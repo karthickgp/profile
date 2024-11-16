@@ -307,7 +307,7 @@ if selected=='Education':
    c1,c2,c3=st.columns(3)
    with c1:
         st.write("  AI Fundamentals  ")
-        st.image('AI900.jpg')
+        st.image('AI900.JPG')
    with c2:
         st.write("  Azure Fundamentals  ")
         st.image('AZ900.jpg')
