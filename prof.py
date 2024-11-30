@@ -231,7 +231,7 @@ if selected=='Projects':
 
 if selected=='Data Products':
    st.markdown('Product Name: Smart Insights')
-   st.markdown('About the Product:' SmartInsights is a social media listening tool helping the marketing function of an organization to identify trends, brand strength, influencers and craft branding message')
+   st.markdown('About the Product: SmartInsights is a social media listening tool helping the marketing function of an organization to identify trends, brand strength, influencers and craft branding message')
    st.markdown('Domain: Global Lifesciences/CPG Company')
    #st.markdown('Domain: Business Intelligence/Analytics')
    #st.markdown('Objective: Create dashboards and analytical solutions to provide visibity into sales & marketing oporations support sales and marketing team of different product lines.')
