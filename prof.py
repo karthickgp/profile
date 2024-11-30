@@ -11,8 +11,8 @@ st.set_page_config(page_title="Profile", page_icon=":human:", layout="wide")
 from streamlit_option_menu import option_menu
 # 1. as sidebar menu
 with st.sidebar:
-    selected = option_menu("Menu",["About Me", "Experience","Projects","Products","Domain","Gen AI","Education"],
-                                   #"Resume","Contact Me"'download',"envelope"],
+    selected = option_menu("Menu",["About Me", "Experience","Data Products","Domain","Gen AI Products","Education"],
+                                   #"Resume","Contact Me"'download',"envelope",""Projects"],
         icons=['person','compass','laptop','map','circle','cpu','book'], menu_icon="cast", default_index=0)
 #tab1, tab2, tab3 = st.tabs(["Timeline", "Skills","Contact Me"])
 #st.set_page_config(layout="wide")
@@ -62,8 +62,8 @@ if selected=='About Me':
     #st.title(":blue[Brief Profile]")
     st.subheader(":blue[Brief Profile]")
     #st.write(":blue[Brief Profile]")
-    st.write("⚒️  Data professional with **11 years** of experience across various data functions, including Data Analytics and Visualization,Data Products,Data Strategy & Governance in multiple roles such as data product manager/owner, Lead Consultant, Data scientist and Engagement Manager.")
-    st.write("⚒️  Currently working with **Cognizant Consulting** in **Aritifical Intelligence & Analytics** business unit providing advisory services on Generative AI, Data & Analytics Strategy, Data Product/Platform Development.")
+    st.write("⚒️  Techno-functional professional  with **11 years** of experience across various data functions, including Data Analytics and Visualization,Data Products,Data Strategy & Governance in multiple roles such as Data Product Manager/Owner, Lead Consultant, Data Scientist and Engagement Manager.")
+    st.write("⚒️  Currently working with **Cognizant Consulting** in **Aritifical Intelligence & Analytics** business unit providing advisory services on Generative AI, Data Strategy, Data Product/Platform Development.")
 # • Holds a Management Degree from the Indian Institute of Management (IIM), Kashipur, with a special focus on Systems & Analytics and Marketing. 
 # • Proficient in eliciting, gathering and analyzing business requirements, client handling, market research, team management, and stakeholder management. 
 # • Experienced in domains such as FMCG, Retail, Insurance and Pharmaceutical. 
