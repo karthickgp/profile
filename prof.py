@@ -229,32 +229,47 @@ if selected=='Projects':
    # st.caption("⚒️  Aiding internal sales teamon responding to RFI/RFP by understanding the business & industry landscape and providing relevant frameworks,case studies to build a more concrete proposal.")
    # st.caption("⚒️  Supporting Recruitment drives to hire right set of candidates for the organization.")
 
-if selected=='Products':
+if selected=='Data Products':
    st.markdown('Product Name: Smart Insights')
+   st.markdown('About the Product:' SmartInsights is a social media listening tool helping the marketing function of an organization to identify trends, brand strength, influencers and craft branding message')
+   st.markdown('Domain: Global Lifesciences/CPG Company')
+   #st.markdown('Domain: Business Intelligence/Analytics')
+   #st.markdown('Objective: Create dashboards and analytical solutions to provide visibity into sales & marketing oporations support sales and marketing team of different product lines.')
+   st.markdown("""Roles & Responsibility:
+   -   Performed market scoping and identified new markets for the product through market research.
+   -   Conducted market assessment to identify potential opportunities and market fit for the product.
+   -   Coordinated with CPO/CTO to create a product roadmap and product requirement documents as part of the product management team.
+   -   Demonstrated the capability of the product to prospective clients and conducted workshops/functional training sessions to the end-users on the product usage.  
+   -   Worked alongside data science team on trend analysis and trend scoring module.
+   -   Managed engagements worth 200K USD for multiple CPG companies operating across multiple categories and multiple geographies.
+   """)
+   st.divider()
+   st.markdown('Product Name: Contract Analyser')
+   st.markdown('About the Product:'Contract Analyser is a NLP based analytics solution helping the procurement/finance function of an organization to extract key insights from the contract and providing suitable intervention to the stakeholders to mitigate any financial loss.')
+   st.markdown('Domain: Domain Agnostic')
    #st.markdown()
    #st.markdown('Client: Global Lifesciences Company')
    #st.markdown('Domain: Business Intelligence/Analytics')
    #st.markdown('Objective: Create dashboards and analytical solutions to provide visibity into sales & marketing oporations support sales and marketing team of different product lines.')
    st.markdown("""Roles & Responsibility:
-   -   Performed market scoping and identified new markets for the product through market research and market assessment to identify potential opportunities and market fit for the product.
-   -   Coordinated with stakeholders to create a product roadmap and product requirement documents as part of the product management team.
-   -   Demonstrated the capability of the product to prospective clients and conducted workshops/functional training sessions to the end-users on product usage.
-   -   Played a key role in transitioning the team from waterfall model delivery to agile. Took additional responsibility as Scrum Master and Managed Azure Devops board.  
-   -   Worked alongside data science team on trend analysis and trend scoring module.
-   -   Performed the role of Product Owner/Product Consultant handling engagements worth 200K USD for multiple CPG companies operating across multiple categories and multiple geographies.
+   -   Responsible for sales and marketing activities for the Product. Some of the activities includes preparing sales deck, publishing blogs on contract analytics. Benchmarking the product against the competitor and executing an outreach email-campaign using Pardot. 
+   -   Created marketing artefacts (Blog, Infographic, Reach out messages) for the product.
+   -   Collaborated with Data Scientists, Data Engineers, UX Designers and the testing team to rollout features/customization to the customers. Extensively worked on Named Entity Recogniztion module to indentify key information from contracts. 
    """)
-   st.divider()
-   st.markdown('Product Name: Contract Analyser')
+    st.divider()
+   st.markdown('Product Name: Internal Product ')
+   st.markdown('Domain: Lifesciences')
+   st.markdown('About the Product:'This product is an analytics solution helping the sales/marketing function of the organization to provide customer insights,identify customer churms and perform customer segmentation.')
    #st.markdown()
    #st.markdown('Client: Global Lifesciences Company')
-   st.markdown('Domain: Business Intelligence/Analytics')
-   st.markdown('Objective: Create dashboards and analytical solutions to provide visibity into sales & marketing oporations support sales and marketing team of different product lines.')
+   #st.markdown('Domain: Business Intelligence/Analytics')
+   #st.markdown('Objective: Create dashboards and analytical solutions to provide visibity into sales & marketing oporations support sales and marketing team of different product lines.')
    st.markdown("""Roles & Responsibility:
-   -   Responsible for sales and marketing activities for the Product/Platform. Some of the activities includes preparing sales deck, publishing blogs on contract analytics. Benchmarking the product against the competitor and executing an outreach email-campaign using Pardot. 
-   -   Created marketing artefacts (Blog, Infographic, Reach out messages) for the product.
-   -   Collaborated with Data Scientists, Data Engineers, UX Designers and the testing team to rollout features/customization to the customers. Extensive worked on Named Entity Recogniztion module to indentify key information from contracts. 
-   """)
-if selected=='Domain':
+   -   Worked as the Lead Product Consultant anchoring the requirement gathering workshop with stakeholders and managing multiple streams.
+   -   Created Artefacts such as BRD collborating with business users, FRD , user manual
+   -   Conducted UAT sessions coordinating with the testing team, created sample data and business scenarios to support testing.
+   -   Played a key role in transitioning the team from waterfall model of delivery to agile. Took additional responsibility as Scrum Master and Managed Azure Devops board.  
+   -   Worked with Data Scientist to develop Churn Prediction Model and Customer Segmentation model.""")
    st.subheader(':blue[FMCG]')
    st.write("⚒️ Social Media Analytics")
    st.write("⚒️ E-commerce & Competitor Analysis")
@@ -274,7 +289,7 @@ if selected=='Domain':
    st.write("⚒️ Sales Analytics ")
    st.write("⚒️ Churn Prediction")
    st.write("⚒️ Customer Segmentation")
-if selected=='Gen AI':
+if selected=='Gen AI Products':
    st.subheader(':blue[Tools/Product]')
    st.markdown('**Synthetic Data Generator** [link](https://huggingface.co/spaces/karthickg12/syntheticdatagenerator)')
    st.write("This Gen AI tool helps the user to generate data based on the real data.")
