@@ -256,7 +256,7 @@ if selected=='Data Products':
    -   Created marketing artefacts (Blog, Infographic, Reach out messages) for the product.
    -   Collaborated with Data Scientists, Data Engineers, UX Designers and the testing team to rollout features/customization to the customers. Extensively worked on Named Entity Recogniztion module to indentify key information from contracts. 
    """)
-    st.divider()
+   st.divider()
    st.markdown('Product Name: Internal Product ')
    st.markdown('Domain: Lifesciences')
    st.markdown('About the Product:'This product is an analytics solution helping the sales/marketing function of the organization to provide customer insights,identify customer churms and perform customer segmentation.')
