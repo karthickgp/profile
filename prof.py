@@ -11,7 +11,7 @@ st.set_page_config(page_title="Profile", page_icon=":human:", layout="wide")
 from streamlit_option_menu import option_menu
 # 1. as sidebar menu
 with st.sidebar:
-    selected = option_menu("Menu",["About Me", "Experience","Data Products",,"Gen AI Products","Education"],
+    selected = option_menu("Menu",["About Me", "Experience","Data Products","Gen AI Products","Education"],
                                    #"Resume","Contact Me"'download',"envelope",""Projects","Domain"],
         icons=['person','compass','laptop','map','circle','cpu','book'], menu_icon="cast", default_index=0)
 #tab1, tab2, tab3 = st.tabs(["Timeline", "Skills","Contact Me"])
@@ -257,6 +257,7 @@ if selected=='Data Products':
    -   Created marketing artefacts (Blog, Infographic, Reach out messages) for the product.
    -   Collaborated with Data Scientists, Data Engineers, UX Designers and the testing team to rollout features/customization to the customers. Extensively worked on Named Entity Recogniztion module to indentify key information from contracts. 
    -   Defined and tracked KPIs to measure the success of AI products.
+   -   Used data-driven insights to prioritize features and optimize user experience.
    """)
    st.divider()
    st.markdown('Product Name: Internal Product ')
@@ -271,7 +272,9 @@ if selected=='Data Products':
    -   Created Artefacts such as BRD collborating with business users, FRD , user manual
    -   Conducted UAT sessions coordinating with the testing team, created sample data and business scenarios to support testing.
    -   Played a key role in transitioning the team from waterfall model of delivery to agile. Took additional responsibility as Scrum Master and Managed Azure Devops board.  
-   -   Worked with Data Scientist to develop Churn Prediction Model and Customer Segmentation model.""")
+   -   Worked with Data Scientist to develop Churn Prediction Model and Customer Segmentation model.
+   -   Mentored and guided junior team members.
+   """)
    # st.subheader(':blue[FMCG]')
    # st.write("⚒️ Social Media Analytics")
    # st.write("⚒️ E-commerce & Competitor Analysis")
@@ -307,13 +310,14 @@ if selected=='Gen AI Products':
    st.write("This Gen AI tool is a knowledge management tool for insurance domain helping the user in understanding various terminology associated with the insurance industry.")
    st.markdown("""Roles & Responsibility:
    -   Identification of data sources to be fed into the Large Language Model.
-   -   
-   -   Provided training and insights about the tool with larger audience
-   -   Worked closely with Data Leads to define AI Governance, best practises,responsible AI charter for the organization.
+   -   Provided training and insights about the tool with larger audience.
+   -   Model evaluation/testing to test for performance and hallucination.
+   -   Act as the liason between technical teams and non-technical stakeholders, ensuring clear communication and removing impediments.
    """)
    st.divider()
-   st.subheader(':blue[Training]')
+   st.subheader(':blue[Learning & Training]')
    st.write("Conducted training sessions for the associate on potential & usage of Gen AI")
+   st.write("Evaluated Hackthons on Gen AI and provided feedback.")
 if selected=='Education':
    st.subheader(':blue[Under-Graduation]')
    st.write("**Course     - Computer Science & Engineering.**")
