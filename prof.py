@@ -230,7 +230,7 @@ if selected=='Projects':
    # st.caption("⚒️  Supporting Recruitment drives to hire right set of candidates for the organization.")
 
 if selected=='Data Products':
-   st.markdown('Product Name: Smart Insights')
+   st.markdown('Product Name: :blue[Smart Insights]')
    st.markdown('About the Product: SmartInsights is a social media listening tool helping the marketing function of an organization to identify trends, brand strength, influencers and craft branding message')
    st.markdown('Domain: Global Lifesciences/CPG Company')
    #st.markdown('Domain: Business Intelligence/Analytics')
@@ -260,7 +260,7 @@ if selected=='Data Products':
    -   Used data-driven insights to prioritize features and optimize user experience.
    """)
    st.divider()
-   st.markdown('Product Name: Internal Product ')
+   st.markdown('Product Name: blue[Internal Product]')
    st.markdown('Domain: Lifesciences')
    st.markdown('About the Product: This product is an analytics solution helping the sales/marketing function of the organization to provide customer insights,identify customer churms and perform customer segmentation.')
    #st.markdown()
@@ -295,7 +295,7 @@ if selected=='Data Products':
    # st.write("⚒️ Churn Prediction")
    # st.write("⚒️ Customer Segmentation")
 if selected=='Gen AI Products':
-   st.markdown('Product Name: Synthetic Data Generator')
+   st.markdown('Product Name: blue[Synthetic Data Generator]')
    st.markdown('About the Product: Synthetic Data Generator is an internal Gen AI tool helping the testing and data science team to address ethical concerns and lack/unavailability of data.')
    st.markdown('Domain: Global Lifesciences')
    #st.markdown('Domain: Business Intelligence/Analytics')
