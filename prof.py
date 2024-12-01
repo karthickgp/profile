@@ -145,8 +145,8 @@ if selected=='Experience':
     #     st_lottie(js_lottie,height=50,width=50, key="js", speed=1)
    text = 'Python,Python,Python,PowerBI,SQL,SQL,MachineLearning,MachineLearning,DataAnalytics,DataAnalytics,'
    text1= 'Azure,Azure,PowerBI,DataEngineering,GenerativeAI,GenerativeAI,DataStrategy,DataVisualization,DataProducts'
-   text2= 'RequirementGathering,RequirementGathering,Roadmapping,Workshop,Jira,Confluence,AzureDevops,Advisory,Agile,Agile,Waterfall,TeamManagemnet,CrossCollaboration,StakeholderManagement'
-   text3='Insurance,Insurance,FMCG,FMCG,Pharma,Pharma,Retail,EIS Suite'
+   text2= 'RequirementGathering,RequirementGathering,Roadmapping,Roadmapping,Workshop,RequirementGathering,Prioritization,Jira,Confluence,AzureDevops,Advisory,Agile,Agile,Waterfall,TeamManagemnet,CrossCollaboration,StakeholderManagement'
+   text3='Insurance,Insurance,FMCG,FMCG,Pharma,Pharma,Retail'
    text=text + text1
 
 
