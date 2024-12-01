@@ -260,7 +260,7 @@ if selected=='Data Products':
    -   Used data-driven insights to prioritize features and optimize user experience.
    """)
    st.divider()
-   st.markdown('Product Name: blue[Internal Product]')
+   st.markdown('Product Name: :blue[Internal Product]')
    st.markdown('Domain: Lifesciences')
    st.markdown('About the Product: This product is an analytics solution helping the sales/marketing function of the organization to provide customer insights,identify customer churms and perform customer segmentation.')
    #st.markdown()
@@ -295,7 +295,7 @@ if selected=='Data Products':
    # st.write("⚒️ Churn Prediction")
    # st.write("⚒️ Customer Segmentation")
 if selected=='Gen AI Products':
-   st.markdown('Product Name: blue[Synthetic Data Generator]')
+   st.markdown('Product Name: :blue[Synthetic Data Generator]')
    st.markdown('About the Product: Synthetic Data Generator is an internal Gen AI tool helping the testing and data science team to address ethical concerns and lack/unavailability of data.')
    st.markdown('Domain: Global Lifesciences')
    #st.markdown('Domain: Business Intelligence/Analytics')
@@ -306,7 +306,7 @@ if selected=='Gen AI Products':
    -   Worked closely with Data Leads to define AI Governance, best practises,responsible AI charter for the organization.
    """)
    st.divider()
-   st.markdown('Product Name: I-Ask')
+   st.markdown('Product Name: :blue[I-Ask]')
    st.write("This Gen AI tool is a knowledge management tool for insurance domain helping the user in understanding various terminology associated with the insurance industry.")
    st.markdown("""Roles & Responsibility:
    -   Identification of data sources to be fed into the Large Language Model.
