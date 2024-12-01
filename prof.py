@@ -236,6 +236,7 @@ if selected=='Data Products':
    #st.markdown('Domain: Business Intelligence/Analytics')
    #st.markdown('Objective: Create dashboards and analytical solutions to provide visibity into sales & marketing oporations support sales and marketing team of different product lines.')
    st.markdown("""Roles & Responsibility:
+   -   Managed the product from ideation to launch and beyond.
    -   Performed market scoping and identified new markets for the product through market research.
    -   Conducted market assessment to identify potential opportunities and market fit for the product.
    -   Coordinated with CPO/CTO to create a product roadmap and product requirement documents as part of the product management team.
@@ -255,6 +256,7 @@ if selected=='Data Products':
    -   Responsible for sales and marketing activities for the Product. Some of the activities includes preparing sales deck, publishing blogs on contract analytics. Benchmarking the product against the competitor and executing an outreach email-campaign using Pardot. 
    -   Created marketing artefacts (Blog, Infographic, Reach out messages) for the product.
    -   Collaborated with Data Scientists, Data Engineers, UX Designers and the testing team to rollout features/customization to the customers. Extensively worked on Named Entity Recogniztion module to indentify key information from contracts. 
+   -   Defined and tracked KPIs to measure the success of AI products.
    """)
    st.divider()
    st.markdown('Product Name: Internal Product ')
@@ -270,25 +272,25 @@ if selected=='Data Products':
    -   Conducted UAT sessions coordinating with the testing team, created sample data and business scenarios to support testing.
    -   Played a key role in transitioning the team from waterfall model of delivery to agile. Took additional responsibility as Scrum Master and Managed Azure Devops board.  
    -   Worked with Data Scientist to develop Churn Prediction Model and Customer Segmentation model.""")
-   st.subheader(':blue[FMCG]')
-   st.write("⚒️ Social Media Analytics")
-   st.write("⚒️ E-commerce & Competitor Analysis")
-   st.write("⚒️ Marketing Mix Modelling")
-   st.divider()
-   st.subheader(':blue[Retail/E-Commerce]')
-   st.write("⚒️ Market Basket Analysis")
-   st.write("⚒️ RFM Analysis")
-   st.write("⚒️ Customer Data Platform")
-   st.divider()
-   st.subheader(':blue[Insurance]')
-   st.write("⚒️ Fraud Detection")
-   st.write("⚒️ Data Platform")
-   st.write("⚒️ Omni-channel Marketing & Customer Journey")
-   st.divider()
-   st.subheader(':blue[Life Sciences]')
-   st.write("⚒️ Sales Analytics ")
-   st.write("⚒️ Churn Prediction")
-   st.write("⚒️ Customer Segmentation")
+   # st.subheader(':blue[FMCG]')
+   # st.write("⚒️ Social Media Analytics")
+   # st.write("⚒️ E-commerce & Competitor Analysis")
+   # st.write("⚒️ Marketing Mix Modelling")
+   # st.divider()
+   # st.subheader(':blue[Retail/E-Commerce]')
+   # st.write("⚒️ Market Basket Analysis")
+   # st.write("⚒️ RFM Analysis")
+   # st.write("⚒️ Customer Data Platform")
+   # st.divider()
+   # st.subheader(':blue[Insurance]')
+   # st.write("⚒️ Fraud Detection")
+   # st.write("⚒️ Data Platform")
+   # st.write("⚒️ Omni-channel Marketing & Customer Journey")
+   # st.divider()
+   # st.subheader(':blue[Life Sciences]')
+   # st.write("⚒️ Sales Analytics ")
+   # st.write("⚒️ Churn Prediction")
+   # st.write("⚒️ Customer Segmentation")
 if selected=='Gen AI Products':
    st.markdown('Product Name: Synthetic Data Generator')
    st.markdown('About the Product: Synthetic Data Generator is an internal Gen AI tool helping the testing and data science team to address ethical concerns and lack/unavailability of data.')
@@ -304,7 +306,8 @@ if selected=='Gen AI Products':
    st.markdown('Product Name: I-Ask')
    st.write("This Gen AI tool is a knowledge management tool for insurance domain helping the user in understanding various terminology associated with the insurance industry.")
    st.markdown("""Roles & Responsibility:
-   -   Identified teh 
+   -   Identification of data sources to be fed into the Large Language Model.
+   -   
    -   Provided training and insights about the tool with larger audience
    -   Worked closely with Data Leads to define AI Governance, best practises,responsible AI charter for the organization.
    """)
