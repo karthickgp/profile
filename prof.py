@@ -245,7 +245,7 @@ if selected=='Data Products':
    -   Managed engagements worth 200K USD for multiple CPG companies operating across multiple categories and multiple geographies.
    """)
    st.divider()
-   st.markdown('Product Name: Contract Analyser')
+   st.markdown('Product Name: :blue[Contract Analyser]')
    st.markdown('About the Product:Contract Analyser is a NLP based analytics solution helping the procurement/finance function of an organization to extract key insights from the contract and providing suitable intervention to the stakeholders to mitigate any financial loss.')
    st.markdown('Domain: Domain Agnostic')
    #st.markdown()
