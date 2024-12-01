@@ -259,7 +259,7 @@ if selected=='Data Products':
    st.divider()
    st.markdown('Product Name: Internal Product ')
    st.markdown('Domain: Lifesciences')
-   st.markdown('About the Product:'This product is an analytics solution helping the sales/marketing function of the organization to provide customer insights,identify customer churms and perform customer segmentation.')
+   st.markdown('About the Product: This product is an analytics solution helping the sales/marketing function of the organization to provide customer insights,identify customer churms and perform customer segmentation.')
    #st.markdown()
    #st.markdown('Client: Global Lifesciences Company')
    #st.markdown('Domain: Business Intelligence/Analytics')
@@ -290,22 +290,24 @@ if selected=='Data Products':
    st.write("⚒️ Churn Prediction")
    st.write("⚒️ Customer Segmentation")
 if selected=='Gen AI Products':
-  st.markdown('Product Name: Smart Insights')
-   st.markdown('About the Product: SmartInsights is a social media listening tool helping the marketing function of an organization to identify trends, brand strength, influencers and craft branding message')
-   st.markdown('Domain: Global Lifesciences/CPG Company')
+   st.markdown('Product Name: Synthetic Data Generator')
+   st.markdown('About the Product: Synthetic Data Generator is an internal Gen AI tool helping the testing and data science team to address ethical concerns and lack/unavailability of data.')
+   st.markdown('Domain: Global Lifesciences')
    #st.markdown('Domain: Business Intelligence/Analytics')
    #st.markdown('Objective: Create dashboards and analytical solutions to provide visibity into sales & marketing oporations support sales and marketing team of different product lines.')
    st.markdown("""Roles & Responsibility:
-   -   Performed market scoping and identified new markets for the product through market research.
-   -   Conducted market assessment to identify potential opportunities and market fit for the product.
-   -   Coordinated with CPO/CTO to create a product roadmap and product requirement documents as part of the product management team.
-   -   Demonstrated the capability of the product to prospective clients and conducted workshops/functional training sessions to the end-users on the product usage.  
-   -   Worked alongside data science team on trend analysis and trend scoring module.
-   -   Managed engagements worth 200K USD for multiple CPG companies operating across multiple categories and multiple geographies.
+   -   Worked with UX team to design the tool. Developed wireframes/workflow using streamlit.
+   -   Provided training and insights about the tool with larger audience
+   -   Worked closely with Data Leads to define AI Governance, best practises,responsible AI charter for the organization.
    """)
    st.divider()
-   st.markdown('**I-ASK**')
+   st.markdown('Product Name: I-Ask')
    st.write("This Gen AI tool is a knowledge management tool for insurance domain helping the user in understanding various terminology associated with the insurance industry.")
+   st.markdown("""Roles & Responsibility:
+   -   Identified teh 
+   -   Provided training and insights about the tool with larger audience
+   -   Worked closely with Data Leads to define AI Governance, best practises,responsible AI charter for the organization.
+   """)
    st.divider()
    st.subheader(':blue[Training]')
    st.write("Conducted training sessions for the associate on potential & usage of Gen AI")
