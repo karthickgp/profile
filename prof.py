@@ -10,6 +10,13 @@ import matplotlib.pyplot as plt
 st.set_page_config(page_title="Profile", page_icon=":human:", layout="wide")
 from streamlit_option_menu import option_menu
 # 1. as sidebar menu
+
+hide_github_icon = """
+#MainMenu {
+  visibility: hidden;
+}
+"""
+st.markdown(hide_github_icon, unsafe_allow_html=True)
 with st.sidebar:
     selected = option_menu("Menu",["About Me", "Experience","Data Products","Gen AI Products","Education"],
                                    #"Resume","Contact Me"'download',"envelope",""Projects","Domain"],
