@@ -324,7 +324,7 @@ if selected=='Gen AI Products':
    st.divider()
    st.subheader(':blue[Learning & Training]')
    st.write("Conducted training sessions for the associate on potential & usage of Gen AI")
-   st.write("Evaluated Hackthons on Gen AI and provided feedback.")
+   st.write("Evaluated Hackthons on Generative AI and provided feedback.")
 if selected=='Education':
    st.subheader(':blue[Under-Graduation]')
    st.write("**Course     - Computer Science & Engineering.**")
