@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 #st.set_option('deprecation.showPyplotGlobalUse', False)
 st.set_page_config(page_title="Profile", page_icon=":human:", layout="wide")
 from streamlit_option_menu import option_menu
-# 1. as sidebar menu
+### 1. as sidebar menu
 
 st.markdown(
     """
